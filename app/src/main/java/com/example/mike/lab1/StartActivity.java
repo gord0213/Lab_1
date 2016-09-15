@@ -1,13 +1,13 @@
 package com.example.mike.lab1;
 
-        import android.support.v7.app.*;
-        import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public StartActivity extends AppCompatActivity{
+public class StartActivity extends AppCompatActivity {
 
-@Override
-protected void onCreate(Bundle savedInstanceState){
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
-        }
-        }
+    }
+}
